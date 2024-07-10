@@ -41,6 +41,7 @@ margin: 0 auto;
 
 .top-para{
 font-size: 18px;
+text-align: center;
 }
 
 .menu {
@@ -91,15 +92,10 @@ font-size: 18px;
     }
 @media screen and (min-width: 992px) {
 
-    .header{
-        text-align: center;
-        
-    }
-    
     h1 {
         position: relative;
         text-align: center;
-        font-size: 30px;
+        font-size: 40px;
         margin: 30px 0;
       }
     
@@ -114,11 +110,11 @@ font-size: 18px;
       }
     
       h1::before {
-        left: 36%;
+        left: 29%;
       }
     
       h1::after {
-        right: 36%;
+        right: 29%;
       }
     h1{
         color: burlywood;
@@ -135,7 +131,7 @@ font-size: 18px;
 
     .top-para{
         text-align: center;
-        font-size: 33px;
+        font-size: 22px;
        
         /* padding: 2px; */
         }
@@ -144,8 +140,8 @@ font-size: 18px;
 
     .menu {
         font-size: 18px;
-        margin: 0 126px;
-        padding: 23px;
+        margin: 0 20px;
+        padding: 20px;
     }
     .menu-group{
         /* it makes 2 equally sizes columns */
@@ -168,15 +164,15 @@ font-size: 18px;
         align-content: center; */
     }
     footer .order{
-        height: 60px;
-        width: 150px;
+        height: 35px;
+        width: 90px;
         cursor: pointer;
         background-color: rgb(221, 221, 119);
         color: #bd2929;
-        border-radius: 12%;
-        font-size: 2em;
+        border-radius: 9%;
+        font-size: 1.5em;
     }
     .footer-para{
-    font-size: 39px;
+    font-size: 24px;
     }
 }
