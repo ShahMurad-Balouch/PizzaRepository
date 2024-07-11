@@ -1,10 +1,4 @@
-.header{
-    text-align: center;
-    
-}
-
 h1 {
-    position: relative;
     text-align: center;
     font-size: 22px;
     margin: 30px 0;
@@ -12,8 +6,6 @@ h1 {
 
   h1::before,
   h1::after {
-    content: "";
-    position: absolute;
     top: 41%;
     width: 9%;
     height: 4px;
@@ -93,7 +85,6 @@ font-size: 18px;
 @media screen and (min-width: 992px) {
 
     h1 {
-        position: relative;
         text-align: center;
         font-size: 40px;
         margin: 30px 0;
@@ -101,9 +92,8 @@ font-size: 18px;
     
       h1::before,
       h1::after {
-        content: "";
-        position: absolute;
-        top: 41%;
+        
+        top: 46%;
         width: 4%;
         height: 4px;
         background-color: #deb887;
@@ -158,10 +148,7 @@ font-size: 18px;
     }
     footer {
         text-align: center;
-        /* display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-content: center; */
+        
     }
     footer .order{
         height: 35px;
